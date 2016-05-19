@@ -14,7 +14,6 @@ $text-color: #6C6C6C;
 $title-color: #202020;
 $white: #fff;
 
-
 p {
     color: $text-color;
 }
@@ -97,6 +96,13 @@ a.tab-button {
     margin: 1em 2em 1em 0;
 }
 
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    margin: 0;
+}
 /*
 **************************************************
 */
@@ -208,6 +214,7 @@ strong, th {
   }
 }
 
+
 .deck-prev-link, .deck-next-link {
   background:#ccc;
   font-family:serif;
@@ -217,7 +224,7 @@ strong, th {
   }
 
   &:hover, &:focus {
-    background:#c00;
+    background:#aaa;
     text-decoration:none;
   }
 }
